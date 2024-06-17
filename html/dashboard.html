@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <title>Document</title>
+   
+    <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
+    
+</head>
+<body style="background-color: black;">
+  <div class="container">
+    <div class="box"> 
+        <label class="borderLine"></label>
+                  
+        <div class="center">
+             <button id="scrapeAllData">Scrape Alldata</button>
+             <!-- <button id="scrapeContactInfo">Scrape Contact Page</button> -->
+             
+        </div>
+        <!-- <button id="scrapeProfile">Scrape All Data</button> -->
+
+        <table>
+          <thead>
+            <tbody id="UserLogoData"></tbody>
+            <tr> 
+              <td>
+                <th> User Profile</th>
+                <th>
+                  <span class="datashowUserProLogo" contentEditable="false" style="display: none;"></span>
+                  <img id="UserDisplay" class="dummyImage" src="/image/dummy.jpg" alt="User Profile" style="height: 96px; width: 105px;">
+                  <!-- <button   id="scrapeProfileProfileLogo" style="position: absolute; margin-top: 47px;">Uer Profile</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+            <thead>
+            
+              <tr> 
+                <td>
+                  <th>User Desingation</th>
+                  <th>
+                    <span class="datashowDesignation" contentEditable="false" style="font-weight: 400;"></span>
+                  <!-- <button id="scrapeProfileDesignation">Desingation</button> -->
+                </th>
+                </td>
+              </tr>
+            </thead>   
+            <thead>
+              <tbody id="CompLogoData"></tbody>
+              <tr> 
+                <td>
+                  <th>Company Logo</th>
+                  <th>
+                    <span class="datashowCompLogo" contentEditable="false" style="display: none;"></span>
+                <img id="imageDisplay" class="dummyLogo" src="/image/logo.png" alt="User Logo" style="height: 96px; width: 105px;">
+                <!-- <button  id="scrapeProfileCompLogo" style="position: absolute; margin-top: 47px;">User Logo</button> -->
+
+                </th>
+                </td>
+              </tr>
+            </thead> 
+            <thead>
+              <tbody id="CompNameData"></tbody>
+              <tr> 
+                <td>
+                  <th>Company Name</th>
+                  <th>
+                    <span class="datashowCompName" contentEditable="true" style="font-weight: 400;"></span>
+                    <!-- <button id="scrapeProfileCompName">Company Name</button> -->
+                </th>
+                </td>
+              </tr>
+            </thead> 
+          <thead>
+            <tbody id="userEmailData"></tbody>
+            <tr> 
+              <td>
+                <th>User Email </th>
+                <th>
+                <span class="datashowUserEmail" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeProfileEmail">Email</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+          <thead>
+            <tbody id="userFullNameData"></tbody>
+            <tr> 
+              <td>
+                <th>User Name</th>
+                <th>
+                <span class="datashowUserFirstName" contentEditable="flase" style="font-weight: 400;"></span>
+                <span class="datashowUserLastName" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeProfileFullName">Name</button> -->
+                </th> 
+              </td>
+            </tr>
+          </thead>
+          <thead>
+            <tbody id="userMobileNumData"></tbody>
+            <tr> 
+              <td>
+                <th>User Mobile Number </th>
+                <th>
+                <span class="datashowUserMobileNum" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeProfileMobileNum">Contact Number</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+          <thead>
+            <tbody id="userUrlData"></tbody>
+            <tr> 
+              <td>
+                <th>User Url </th>
+                <th>
+                <span class="datashowUserUrl" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeProfileUrl">Profile URL</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+          <thead>
+            <tbody id="companyProfileUrls"></tbody>
+            <tr> 
+              <td>
+                <th>Company Profile URL </th>
+                <th>
+                <span class="datashow" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeCompanyInfo">Company URL</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+          <thead>
+            <tbody id="CompanyDomainUrls"></tbody>
+            <tr> 
+              <td>
+                <th>Company Domain URL </th>
+                <th>
+                <span class="datashowdomain" contentEditable="flase" style="font-weight: 400;"></span>
+                <!-- <button id="scrapeCompanyDomainInfo">Domain URL</button> -->
+              </th>
+              </td>
+            </tr>
+          </thead>
+
+        </table>
+
+
+      <!-- this is company data -->
+      
+
+             <script type="module" src="/js/profile_contact_merge.js"></script> 
+             <!-- Include the content.js script with type="module" -->
+            <script type="module" src="/js/linkedInProfiledashboard.js"></script>
+         
+   
+
+
+            <script type="module" src="/js/linkedinContactInfo.js"></script> 
+
+            <!-- <script src="/js/content.js"></script> -->
+            <script src="/js/background.js"></script>
+            <script type="module" src="/js/companyData/linkedinCompany.js"></script>
+            <script type="module" src="/js/companyData/linkedinCompanyDomain.js"></script>
+    
+               <!-- <script>
+                function showImage() {
+                  // Get references to the images
+                  let dummyImage = document.getElementById("dummyImage");
+                  let realImage = document.getElementById("UserDisplay");
+                  dummyLogo
+                  // Show the real image and hide the dummy image
+                  realImage.style.display = "inline";
+                  dummyImage.style.display = "none";
+                }
+     
+            </script>
+
+            <script>
+              function showLogo() {
+                // Get references to the images
+                let dummyLogo = document.getElementById("dummyLogo");
+                let realImage = document.getElementById("imageDisplay");
+                dummyLogo
+                // Show the real image and hide the dummy image
+                realImage.style.display = "inline";
+                dummyLogo.style.display = "none";
+              }
+
+            </script> -->
+
+
+          </div>
+        </div>
+   
+</body>
+</html>
+

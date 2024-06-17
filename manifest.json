@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Mokapen Extension",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "scripting",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>","https://www.linkedin.com/*"],
+      "js": ["/js/login.js",
+      "/js/linkedinProfiledashboard.js",
+             "/js/popup.js" ,      
+             "/js/background.js"   
+   ],      
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": [
+    "https://dev.mokapen.uno/api/login*",
+    "https://dev.mokapen.uno/*"
+
+  ],
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "image/mokapen_logo.png",
+      "48": "image/mokapen_logo.png",
+      "128": "image/mokapen_logo.png"
+    }
+  }, 
+  "icons": {
+    "16": "image/mokapen_logo.png",
+    "48": "image/mokapen_logo.png",
+    "128": "image/mokapen_logo.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"  
+  }
+
+}

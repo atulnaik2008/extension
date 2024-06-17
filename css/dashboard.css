@@ -1,0 +1,469 @@
+
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 739px;
+    background: #1673dd;
+    border-radius: 18px;
+    overflow: hidden;
+    
+  }
+  .body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+
+
+  .card{
+
+    margin-bottom: 7px;
+    border-radius:1rem;
+    margin-top: -17px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+  }
+  
+  img{
+    height: 35px;
+    margin: 10px;
+  }
+  input.form-control{
+       width: 297px;
+       padding: 5px;
+       margin: 10px;
+  }
+
+  .datashow {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text;
+  }
+  
+  
+  .datashowdomain
+  {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text;
+  }
+
+  .datashowDesignation{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+  .datashowCompName{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+  .datashowCompLogo{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+
+  .datashowUserProLogo{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+  .datashowUserEmail{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+  .datashowUserFirstName{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+  .datashowUserLastName{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+  .datashowUserMobileNum{
+
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+
+  .datashowUserUrl{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 315px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2em;
+    line-height: 1.4em;
+    cursor: text; 
+  }
+
+
+
+  /* button and input filed css */
+  
+/*Clearing Floats*/
+.cf:before, .cf:after{
+  content:"";
+  display:table;
+}
+
+.cf:after{
+  clear:both;
+}
+
+.cf{
+  zoom:1;
+}    
+/* Form wrapper styling */
+
+.search-wrapper {
+  width: 450px;
+  margin: 150px auto 50px auto;
+  border-radius: 40px;
+background: transparent;
+  box-shadow: 0 4px 20px -2px #e9e9e9;
+}
+
+/* Form text input */
+
+.search-wrapper input {
+padding-left: 20px;
+  width: 330px;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;   
+  font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  border: 0;
+  background: #fff;
+  border-radius: 40px;
+  border-top-style: none;
+}
+
+.search-wrapper input:focus {
+  outline: 0;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+ color: #999;
+ font-weight: normal;
+ font-style: italic;
+padding-left: 20px;
+}
+
+.search-wrapper input:-moz-placeholder {
+  
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+border-style: none;
+}   
+
+/* Form submit button */
+.search-wrapper button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  color: #fff;
+  text-transform: uppercase;
+  background: #198cff;
+  border-radius: 40px;
+  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}  
+
+.search-wrapper button:hover{    
+    background: #e54040;
+}  
+
+.search-wrapper button:active,
+.search-wrapper button:focus{  
+  background: #198cff;
+  outline: 0;  
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before{
+      border-right-color: #c42f2f;
+}     
+
+.search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+  border: 0;
+  padding: 0;
+}   
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*:before, *:after {
+  content: '';
+  position: absolute;
+}
+
+p {
+  color: #717171;
+  text-shadow: -1px 1px #201e2c;
+  border-radius: 3px;
+  background: #ffffff75;
+  padding: 10px;
+  box-shadow: 0 0 2px 1px black;
+  font-size: 18px;
+}
+
+h2{
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 26px;
+  color: #171717;
+  text-shadow: -1px 1px #19142b;
+
+}
+
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 66vh;
+  height: 100vh;
+}
+
+.mobile {
+  position: relative;
+  width: 400px;
+  height: 739px;
+  background: transparent;
+  border: 4px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabs-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+  border-radius: 1px;
+  border: 1px solid #614fff;
+  background: #3451a3;
+  color: white;
+  transition: 225ms;
+
+}
+
+.tab-content {
+  top: -100px;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  transition: 425ms;
+  padding: 0 10px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-size: contain;
+  margin-top: 49px;
+}
+
+
+
+/*tab-1 otvaranje i zatvranje ostalih*/
+
+#tab1:checked  ~ .tab1-content {
+  top: 40px;
+  opacity: 1;
+}
+
+#tab1:checked ~ .button-1 {
+  box-shadow: inset 3px 4px 0px 1px black;
+  text-shadow: -1px 1px #201e2c;
+}
+
+#tab2:checked ~ .tab2-content {
+  top: 40px;
+  opacity: 1;
+}
+
+#tab2:checked ~ .button-2 {
+  box-shadow: inset 0 4px 0px 1px black;
+  text-shadow: -1px 1px #201e2c;
+}
+
